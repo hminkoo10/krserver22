@@ -27,10 +27,6 @@ while True:
         break
         
 print("**script**: server has started!")
-time.sleep(10)
-print("**script**: starting ngrok tcp")
-os.system('ngrok tcp -region jp 25565 &')
-time.sleep(10)
 
 while True:
     print("**script**: saving world...")
