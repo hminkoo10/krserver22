@@ -1,0 +1,27 @@
+command /gift [<player>]:
+    trigger:
+        if arg 1 is not set:
+            message "&c&l아이템을 선물할 사람을 입력해주세요."
+            stop
+        if arg 1 doesn't have enough space for player's tool:
+            message "&6상대방에게 남은 인벤토리가 없습니다"
+            stop
+        give 1 of player's tool to arg 1
+        remove 1 of player's tool from player
+        broadcast "&6&l%player% &f님께서 &f아이템을 &b%arg 1% &f님 에게 선물하셨습니다. 남은 아이템은 &e%player's tool%입니다"
+
+command /top:
+  trigger:
+    set {_loc} to location at player
+    set y-coord of {_loc} to 256
+    loop 256 times:
+      if y-coord of {_loc} is y-coord of location at player:
+        message "&6이미 맨 위에 올라와 있어요!"
+        stop
+      if block at {_loc} is a solid block:
+        if event-world is "world":
+          teleport player to block above {_loc}
+          message "&6맨 위로 올라왔습니다!"
+          stop
+      else:
+        remove 1 from y-coord of {_loc}

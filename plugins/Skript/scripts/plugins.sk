@@ -1,0 +1,34 @@
+command /tpa [<player>]:
+    trigger:
+        set {essentials.tpa.%arg 1%} to player
+        send subtitle "&6tp요청이 들어왔습니다" to arg 1
+        send "&e%player%님이 당신한테 tp를 하려고 합니다" to arg 1
+        send "&e/accept로 수락을 하거나" to arg 1
+        send "&e/deny로 거절을 하세요" to arg 1
+        message "&e요청이 보내졌습니다"
+
+command /accept:
+    trigger:
+        if {essentials.tpa.%player%} is not "0":
+            teleport {essentials.tpa.%player%} to location of player
+            send "&e&l%{essentials.tpa.%player%}%님이 tp하셨습니다" to player
+            send "&e&ltp완료!" to {essentials.tpa.%player%}
+            set {essentials.tpa.%player%} to "0"
+        else:
+            message "&e 받은 tp요청이 없습니다"
+command /deny:
+    trigger:
+        if {essentials.tpa.%player%} is not "0":
+            send "&6tp 요청이 거절되었습니다" to player
+            send subtitle "&btp 요청이 거절되었습니다" to {essentials.tpa.%player%}
+            send "&btp 요청이 거절되었습니다" to {essentials.tpa.%player%}
+            set {essentials.tpa.%player%} to "0"
+        else:
+            message "&e 받은 tp요청이 없습니다"
+command /invsee [<player>]:
+    trigger:
+        if player is op:
+            if arg 1 is not set:
+                send "&e플래이어를 지정 해 주세요"
+            else:
+                open the arg-1's inventory for the player

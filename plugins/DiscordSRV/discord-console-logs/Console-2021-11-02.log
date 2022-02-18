@@ -1,0 +1,16 @@
+[화, 2. 11월 2021 08:28:06 KST | ID 712290125505363980] Zhdfud: team join 1 @a
+[화, 2. 11월 2021 08:32:16 KST | ID 712290125505363980] Zhdfud: execute at soonhoochoo tp @e[name=asd] soonhoochoo
+[화, 2. 11월 2021 08:32:34 KST | ID 712290125505363980] Zhdfud: execute at soonhoochoo run tp @e[name=asd] soonhoochoo
+[화, 2. 11월 2021 08:36:16 KST | ID 712290125505363980] Zhdfud: give korea_bedwars slime_block
+[화, 2. 11월 2021 08:37:04 KST | ID 712290125505363980] Zhdfud: give korea_bedwars slime_block 10
+[화, 2. 11월 2021 08:39:12 KST | ID 712290125505363980] Zhdfud: tellraw @a {"text":"난 바보다 우히히히힣"}
+[화, 2. 11월 2021 08:39:37 KST | ID 712290125505363980] Zhdfud: tellraw @a {"text":"soonhoochoo","color":"red"}
+[화, 2. 11월 2021 09:02:06 KST | ID 712290125505363980] Zhdfud: give korea_bedwars netherite_axe
+[화, 2. 11월 2021 09:02:36 KST | ID 712290125505363980] Zhdfud: locatebiome forest
+[화, 2. 11월 2021 09:02:48 KST | ID 712290125505363980] Zhdfud: say 숲 좌표 584 228
+[화, 2. 11월 2021 09:02:57 KST | ID 712290125505363980] Zhdfud: say forest 좌표임
+[화, 2. 11월 2021 09:06:02 KST | ID 712290125505363980] Zhdfud: give korea_bedwars lava_bucket
+[화, 2. 11월 2021 09:06:30 KST | ID 712290125505363980] Zhdfud: give korea_bedwars water_bucket
+[화, 2. 11월 2021 09:15:21 KST | ID 712290125505363980] Zhdfud: enchant korea_bedwars sweeping 3
+[화, 2. 11월 2021 09:16:47 KST | ID 712290125505363980] Zhdfud: give soonhoochoo paper 300
+[화, 2. 11월 2021 21:55:21 KST | ID 712290125505363980] Zhdfud: stop

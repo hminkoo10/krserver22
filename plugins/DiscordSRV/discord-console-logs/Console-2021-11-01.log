@@ -1,0 +1,15 @@
+[월, 1. 11월 2021 15:42:05 KST | ID 712290125505363980] Zhdfud: whitelist add P_MA
+[월, 1. 11월 2021 15:45:18 KST | ID 712290125505363980] Zhdfud: whitelist add P_MA0407
+[월, 1. 11월 2021 15:45:34 KST | ID 712290125505363980] Zhdfud: whitelist add P_M0408
+[월, 1. 11월 2021 15:45:39 KST | ID 712290125505363980] Zhdfud: whitelist add P_MA0407
+[월, 1. 11월 2021 15:45:50 KST | ID 712290125505363980] Zhdfud: whitelist add P_MA0704
+[월, 1. 11월 2021 15:46:03 KST | ID 712290125505363980] Zhdfud: whitelist add PMA0714
+[월, 1. 11월 2021 15:46:17 KST | ID 712290125505363980] Zhdfud: whitelist add PMA0417
+[월, 1. 11월 2021 15:46:34 KST | ID 712290125505363980] Zhdfud: whitelist add PMA0719
+[월, 1. 11월 2021 15:46:39 KST | ID 712290125505363980] Zhdfud: say 아 학원 늦음
+[월, 1. 11월 2021 15:46:45 KST | ID 712290125505363980] Zhdfud: say 무친 안녕히
+[월, 1. 11월 2021 15:46:57 KST | ID 712290125505363980] Zhdfud: say 일단 서버용량 1G정도 줄이고
+[월, 1. 11월 2021 15:47:03 KST | ID 712290125505363980] Zhdfud: say mcsv폴더로
+[월, 1. 11월 2021 15:47:06 KST | ID 712290125505363980] Zhdfud: say 옮겨놓으세요
+[월, 1. 11월 2021 21:07:38 KST | ID 712290125505363980] Zhdfud: execute in nether run gamerule keepInventory false
+[월, 1. 11월 2021 21:08:09 KST | ID 712290125505363980] Zhdfud: execute in the_nether run gamerule keepInventory false
